@@ -1,6 +1,7 @@
 #### PROBLEM 1 ####
 # Correc the mistakes and produce the following output:
 # Johnny, the total of your purchase is $1,688.70souso
+print('')
 def calcTotal(amt,tax,name):
     mytotal = amt * (1+tax)
     print(f"{myname}, the total of your purchase is ${mytotal:,.2f}")
@@ -17,6 +18,7 @@ calcTotal(price,thetax,myname)
 
 ####  PROBLEM 2  ####
 # print out ONLY the integers in the list below #
+print('')
 list1 = [1,'two',3.2,'four',5]
 
 for i in list1:
